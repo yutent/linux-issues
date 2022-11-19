@@ -8,7 +8,7 @@
   - CPU: intel i5-1240p
   - MEM: 32G DDR4 3200
   - SSD: 1TB NVMe
-  - Net: AX201 wifi6
+  - Net: Intel WLAN controller
   - OS:  `debian sid`
   - DE: Xfce 4.16
   
@@ -17,7 +17,7 @@
   - CPU: intel i7-1165G7
   - MEM: 32G DDR4 3200
   - SSD: 1TB NVMe
-  - Net: AX201 wifi6
+  - Net: Intel WLAN controller
   - OS:  `debian sid`
   - DE: Xfce 4.16
   
