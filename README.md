@@ -4,7 +4,7 @@
 
 ## 我的电脑信息
 
-###  dell灵越rpo笔记本
+###  dell灵越pro笔记本
   - CPU: intel i5-1240p
   - MEM: 32G DDR4 3200
   - SSD: 1TB NVMe
