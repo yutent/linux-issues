@@ -10,6 +10,7 @@
   - SSD: 1TB NVMe
   - Net: AX201 wifi6
   - OS:  `debian sid`
+  - DE: Xfce 4.16
   
   
 ###  Intel nuc
@@ -18,3 +19,9 @@
   - SSD: 1TB NVMe
   - Net: AX201 wifi6
   - OS:  `debian sid`
+  - DE: Xfce 4.16
+  
+  
+ ## 问题目录
+ 
+ - [【音频相关】](./audio.md)
