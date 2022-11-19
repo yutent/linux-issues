@@ -5,7 +5,7 @@
 > 音响使用的是 哈曼卡顿3, 使用3.5mm有线连接, 在电脑本身无声音输出时, 音响会发出滋滋滋的电流声, 很大声。在打开`PulseAudio`设置面板时, 电流声消失。
 
 解决办法: 
-1. /etc/pulse/default.pa`文件, 将这一句 `load-module module-suspend-on-idle` 注释掉。 
+1. 编辑`/etc/pulse/default.pa`文件, 将这一句`load-module module-suspend-on-idle` 注释掉。 
 2. 重启`PulseAudio`。终端执行 `systemctl restart --user pulseaudio.service`。
 
 
