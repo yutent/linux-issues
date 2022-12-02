@@ -13,11 +13,11 @@
   - DE: Xfce 4.16
   
   
-###  Intel nuc
-  - CPU: intel i7-1165G7
-  - MEM: 32G DDR4 3200
+###  AMD morefine迷你主机
+  - CPU: AMD R7 6800U
+  - MEM: 32G DDR5 4800
   - SSD: 1TB NVMe
-  - Net: Intel WLAN controller
+  - Net: mediatek MT7961
   - OS:  `debian sid`
   - DE: Xfce 4.16
   
