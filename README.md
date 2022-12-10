@@ -12,6 +12,10 @@
   - OS:  `debian sid`
   - DE: Xfce 4.16
   
+#### 问题目录
+ 
+ - [【音频相关】](./audio.md)
+  
   
 ###  AMD morefine迷你主机
   - CPU: AMD R7 6800U
@@ -20,8 +24,8 @@
   - Net: mediatek MT7961
   - OS:  `debian sid`
   - DE: Xfce 4.16
-  
-  
- ## 问题目录
+
+#### 问题目录
  
- - [【音频相关】](./audio.md)
+ - [【散热风扇相关】](./amd-fan.md)
+
