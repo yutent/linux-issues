@@ -8,6 +8,16 @@
 1. 编辑`/etc/pulse/default.pa`文件, 将这一句`load-module module-suspend-on-idle` 注释掉。 
 2. 重启`PulseAudio`。终端执行 `systemctl restart --user pulseaudio.service`。
 
+PS.
+将`PulseAudio`用`Pipewire`代替之后, 问题依旧。 `Pipewire`的解决问题类似, 
+```bash
+sudo mkdir -p /etc/wireplumber/main.lua.d
+sudo cp /usr/share/wireplumber/main.lua.d/50-alsa-config.lua /etc/wireplumber/main.lua.d/50-alsa-config.lua
+```
+然后编辑该文件, 将最后一句 `["session.suspend-timeout-seconds"] = 5` 前面的注释去掉, 并将值改为0。
+
+**以上2种方法, 都只能解决系统正常使用时的电流声。但是系统睡眠时的电流声一直存在。**
+
 
 
 ### 2. 声音设置面板出现 3个HDMI音频输出设备
